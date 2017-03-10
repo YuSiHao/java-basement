@@ -63,11 +63,30 @@ public class Node {
 		return head;
 	}
 
+	/**
+	 * 递归反转
+	 * 
+	 * @param head
+	 * @return
+	 */
+	private static Node reverseByRecur(Node current) {
+		if (current == null || current.nextNode == null)
+			return current;
+		Node nextNode = current.nextNode;
+		current.nextNode = null;
+		Node reverseRest = reverseByRecur(nextNode);
+		nextNode.nextNode = current;
+		return reverseRest;
+	}
+
 	public static void main(String[] args) {
-		Node head = init(10);
+		/*Node head = init(10);
 		out(head);
 		Node reverseHead = reverseHead(head);
-		out(reverseHead);
+		out(reverseHead);*/
+		Node headByRecur = init(3);
+		Node reverseByRecur = reverseByRecur(headByRecur);
+		out(reverseByRecur);
 	}
 
 }

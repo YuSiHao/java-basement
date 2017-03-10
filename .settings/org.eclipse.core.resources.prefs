@@ -1,4 +1,6 @@
 eclipse.preferences.version=1
 encoding//src/com/ysh/java/basement/rotate/Node.java=UTF-8
+encoding//src/com/ysh/java/basement/thread/SemaPhore.java=UTF-8
+encoding//src/com/ysh/java/basement/thread/ThreadDemo.java=UTF-8
 encoding//src/com/ysh/java/basement/tree/BinaryTree.java=UTF-8
 encoding//src/com/ysh/java/basement/tree/BinaryTreeTest.java=UTF-8
