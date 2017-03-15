@@ -2,6 +2,7 @@ eclipse.preferences.version=1
 encoding//src/com/ysh/java/basement/list/AddRemoveListElement.java=UTF-8
 encoding//src/com/ysh/java/basement/rotate/Node.java=UTF-8
 encoding//src/com/ysh/java/basement/sort/BubbleSort.java=UTF-8
+encoding//src/com/ysh/java/basement/sort/FastSort.java=UTF-8
 encoding//src/com/ysh/java/basement/thread/SemaPhore.java=UTF-8
 encoding//src/com/ysh/java/basement/thread/ThreadDemo.java=UTF-8
 encoding//src/com/ysh/java/basement/tree/BinaryTree.java=UTF-8
