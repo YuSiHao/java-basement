@@ -8,7 +8,7 @@ public class HeapOOM {
 	static class OOMobject{
 		
 	}
-	//-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:-PrintGCDetails
+	//-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:-PrintGCDetails -XX:+HeapDumpOnOutOfMemoryError
 	//Xms:Java Heap Min Xmx:Java Heap Max Xmn:Java Heap Young
 	public static void main(String[] args) {
 		List<OOMobject> list = new ArrayList<>();
