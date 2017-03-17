@@ -1,5 +1,9 @@
 eclipse.preferences.version=1
 encoding//src/com/ysh/java/basement/list/AddRemoveListElement.java=UTF-8
+encoding//src/com/ysh/java/basement/proxy/Count.java=UTF-8
+encoding//src/com/ysh/java/basement/proxy/CountImpl.java=UTF-8
+encoding//src/com/ysh/java/basement/proxy/CountProxy.java=UTF-8
+encoding//src/com/ysh/java/basement/proxy/ProxyHandler.java=UTF-8
 encoding//src/com/ysh/java/basement/rotate/Node.java=UTF-8
 encoding//src/com/ysh/java/basement/sort/BubbleSort.java=UTF-8
 encoding//src/com/ysh/java/basement/sort/FastSort.java=UTF-8
