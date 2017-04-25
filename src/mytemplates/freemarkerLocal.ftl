@@ -1,0 +1,20 @@
+--------普通变量获取---------
+${user}
+--------获取Map中属性--------
+${latestProduct.url}
+${latestProduct.name}
+--------自定义的indexOf方法变量------
+<#assign x = "something">
+${indexOf("met",x)}
+${indexOf("foo",x)}
+--------自定义的转换器变量(装换小写为大写，以标签形式展现)
+blah1
+<@upperCase>
+blah2
+blah3
+</@upperCase>
+blah4
+--------共享变量的获取，在configuration中设置
+<@to_upper>
+${company}
+</@to_upper>
